@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "nodejs-hw-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksaLuki/nodejs-hw-01.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Aleksandra Luki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksaLuki/nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/AleksaLuki/nodejs-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.9"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^11.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nanoid": "^3.3.6",
+    "yargs": "^17.7.2",
+    "yarn": "^1.22.19"
+  }
+}
